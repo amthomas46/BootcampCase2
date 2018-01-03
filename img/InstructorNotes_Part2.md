@@ -36,13 +36,7 @@ using enhanced features of the bot framework.
 
 >   *Activity logging is used to log message activities between bots and users
 >   using the IActivityLogger interface. Collecting this information can provide
-**What are some tasks you'll have to complete to create an efficient and functional calling bot?**
-* Call the Bing Speech API to get text-to-speech and speech-to-text
-* Incorporate LUIS and call the intents
-* Incorporate Search and call the service to search Azure SQL
-* Implement a Regex structure to minimize hits to LUIS
-* Might also be able to take advantage of FormFlow
-* Set up the Skype channel
+
 >   a real time snapshot into the how busy the bot is working.*
 
 >    
@@ -75,6 +69,14 @@ using enhanced features of the bot framework.
 >   *Logging is not just limited to files, you could log to Azure SQL DB, but
 >   you should be sensitive to the potential performance impact*  
 
+
+**What are some tasks you'll have to complete to create an efficient and functional calling bot?**
+* Call the Bing Speech API to get text-to-speech and speech-to-text
+* Incorporate LUIS and call the intents
+* Incorporate Search and call the service to search Azure SQL
+* Implement a Regex structure to minimize hits to LUIS
+* Might also be able to take advantage of FormFlow
+* Set up the Skype channel
 
 Work in team of 4 or 5 as assigned by the instructor to discuss the options that
 are available. This will be time limited between 20 - 30 mins.
