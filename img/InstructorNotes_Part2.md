@@ -1,6 +1,5 @@
   **Q&A Part 2 (Potential Answers)**
 ==================================
-
  
 
 ### Case
@@ -10,9 +9,7 @@ its customers. Contoso currently processes new product orders and queries
 through human operators, and are starting to devise a plan to implement your
 proposed solution using bots. The solution will provide an automated approach
 that allows Contoso to seamlessly scale up to handle a large call volumes while
-maintaining zero wait times and freeing up staff to manage other tasks.
-
- 
+maintaining zero wait times and freeing up staff to manage other tasks. 
 
 ### Assignment
 
@@ -22,52 +19,30 @@ using enhanced features of the bot framework.
 **Which features from Azure Search should you take advantage of?**
 * Geospatial - maybe they want to know what's closest to them, or they only want to know about items in stock at a specific store
 * Boosting - you may want to return higher-profit bikes or items in your list when they search, or maybe you want use ranking and go from frequently purchased to not
-
 * Facets - maybe they want results in different areas, e.g. bikes, clothing, gloves, etc.
 * Regularly scheduled indexer for Azure SQL the options change depending on what's in stock
 * Monitoring, reporting and analyses to determine what is asked about, maybe things asked about more, you keep more and similar products in stock.  
 
 **How can bot logging be used to benefit Contoso**?
 
->   **Potential Answers. (Other answers are also valid)**
+  **Potential Answers. (Other answers are also valid)**
 
->   *Logging can be provided at two levels. Activity logging and File logging.*
+*Logging can be provided at two levels. Activity logging and File logging.*
 
+*Activity logging is used to log message activities between bots and users using the IActivityLogger interface. Collecting this information can provide a real time snapshot into the how busy the bot is working.*
 
->   *Activity logging is used to log message activities between bots and users
->   using the IActivityLogger interface. Collecting this information can provide
+*File logging uses the same information collected by activity logging but persists the data within a file. Therefore, retaining the data that could be used for further analysis such as:*
+ *Identifying how many customers within your overall population make use of the customer service function.*
 
->   a real time snapshot into the how busy the bot is working.*
+ *Understanding the frequency with which a user is making use of the customer support, and therefore understand the potential cost of support, and understanding anomalies such as customers who have a very high frequency of using customer service.*
 
->    
+ *Understand the context of the bot interactions by capturing the message content*
 
->   *File logging uses the same information collected by activity logging but
->   persists the data within a file. Therefore, retaining the data that could be
->   used for further analysis such as:*
+ *Damage control, with real time sentiment analysis of the bot-user iteration, so the chat can be routed to a real person to solve a problem.*
 
->    
+*There maybe the potential to take this data and mine it to identify patterns where there are peaks in Customer service usage, and perhaps predict future patterns of users using the service. This could help Contoso resource the department appropriately and optimize the cost of running the support function*
 
->   *Identifying how many customers within your overall population make use of
->   the customer service function.*
-
->   *Understanding the frequency with which a user is making use of the customer
->   support, and therefore understand the potential cost of support, and
->   understanding anomalies such as customers who have a very high frequency of
->   using customer service.*
-
->   *Understand the context of the bot interactions by capturing the message
->   content*
-
->   *Damage control, with real time sentiment analysis of the bot-user iteration, so the chat can be routed to a real person to solve a problem.*
-
->   *There maybe the potential to take this data and mine it to identify
->   patterns where there are peaks in Customer service usage, and perhaps
->   predict future patterns of users using the service. This could help Contoso
->   resource the department appropriately and optimize the cost of running the
->   support function*
-
->   *Logging is not just limited to files, you could log to Azure SQL DB, but
->   you should be sensitive to the potential performance impact*  
+*Logging is not just limited to files, you could log to Azure SQL DB, but you should be sensitive to the potential performance impact*  
 
 
 **What are some tasks you'll have to complete to create an efficient and functional calling bot?**
@@ -90,4 +65,3 @@ your answer and discuss with the wider group
 
  
 -
-
