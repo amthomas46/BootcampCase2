@@ -19,14 +19,30 @@ maintaining zero wait times and freeing up staff to manage other tasks.
 You have been tasked to highlight the value that can be added to the business by
 using enhanced features of the bot framework.
 
-**Specifically, how can bot logging be used to benefit Contoso**?
+**Which features from Azure Search should you take advantage of?**
+* Geospatial - maybe they want to know what's closest to them, or they only want to know about items in stock at a specific store
+* Boosting - you may want to return higher-profit bikes or items in your list when they search, or maybe you want use ranking and go from frequently purchased to not
+
+* Facets - maybe they want results in different areas, e.g. bikes, clothing, gloves, etc.
+* Regularly scheduled indexer for Azure SQL the options change depending on what's in stock
+* Monitoring, reporting and analyses to determine what is asked about, maybe things asked about more, you keep more and similar products in stock.  
+
+**How can bot logging be used to benefit Contoso**?
 
 >   **Potential Answers. (Other answers are also valid)**
 
 >   *Logging can be provided at two levels. Activity logging and File logging.*
 
+
 >   *Activity logging is used to log message activities between bots and users
 >   using the IActivityLogger interface. Collecting this information can provide
+**What are some tasks you'll have to complete to create an efficient and functional calling bot?**
+* Call the Bing Speech API to get text-to-speech and speech-to-text
+* Incorporate LUIS and call the intents
+* Incorporate Search and call the service to search Azure SQL
+* Implement a Regex structure to minimize hits to LUIS
+* Might also be able to take advantage of FormFlow
+* Set up the Skype channel
 >   a real time snapshot into the how busy the bot is working.*
 
 >    
@@ -57,37 +73,8 @@ using enhanced features of the bot framework.
 >   support function*
 
 >   *Logging is not just limited to files, you could log to Azure SQL DB, but
->   you should be sensitive to the potential performance impact*
+>   you should be sensitive to the potential performance impact*  
 
- 
-
-In addition, the CIO has asked you for examples of how Custom Vision could be
-used to help to bring value to the business.
-
-**Find one example of how the Custom Vision API can help?**
-
->   **Potential Answer. (Other answers are also valid)**
-
->   *Custom Vision API is about the classification of pictures based on the tags
->   that have been trained within the model. Contoso would have to consider if
->   there is a business process that is dependent on classification*
-
->   *One example could include bicycle part replacement. Contoso could train a
->   Custom Vision model to identify certain bicycle parts and tag the images
->   such as the front and rear wheel, saddles and handlebars.*
-
->   *The user could return a list of replacement parts by simply taking a
->   picture of the part of their own bike, uploading the picture through a bot
->   application, which then passes the image to the model, that will then
->   classify the picture. Additional code within the application will take the
->   tag as an input parameter to return a list of specific parts that could be
->   purchased as a replacemen*t.
-
->   *Check out the “Technology in Action” section on how the insurance industry
->   are thinking about a similar approach to insurance claims processing
->   http://www.telegraph.co.uk/business/risk-insights/is-insurance-industry-ready-for-ai/*
-
- 
 
 Work in team of 4 or 5 as assigned by the instructor to discuss the options that
 are available. This will be time limited between 20 - 30 mins.
