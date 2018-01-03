@@ -16,18 +16,14 @@ maintaining zero wait times and freeing up staff to manage other tasks.
 
 ### Assignment
 
-You have been tasked to highlight the value that can be added to the business by
-using enhanced features of the bot framework. Specifically, how can bot logging
-be used to benefit Contoso?
+Your group has been tasked to suggest answers to the following questions:
 
-In addition, the CIO has asked you for examples of how Custom Vision could be
-used to help to bring value to the business. Find one example of how the Custom
-Vision API can help?
-
+1. Which features from Azure Search should you take advantage of?  
+2. How can bot logging be used to benefit Contoso?
+3. What are some tasks you'll have to complete to create an efficient and functional calling bot?  
+ 
 Work in team of 4 or 5 as assigned by the instructor to discuss the options that
 are available. This will be time limited between 20 - 30 mins.
-
- 
 
 ### Discussion
 
